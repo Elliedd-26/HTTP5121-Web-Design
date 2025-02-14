@@ -1,0 +1,157 @@
+
+ /* general */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ /* header and navigation */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #335b2f;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #d4af37;
+  color: #fff;
+}
+
+
+
+
+/* hero + title */
+.hero img {
+  width: 100%;
+}
+
+.hero {
+  position: relative;
+}
+
+.meta-info {
+  display: flex;
+  justify-content: center;
+  gap: 15px; 
+  font-size: 14px;
+  color: #555;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  align-items: center;
+}
+
+
+/* the main contents */
+.blogs, .article, .compose {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* article */
+.article {
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.article p {
+  max-width: 800px;
+  padding: 0 100px;
+}
+
+
+
+/* blogs */
+.blogs {
+  padding: 20px;
+}
+.blog-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.blog-item {
+  background: #f8e8c8;
+  padding: 15px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+}
+
+
+
+/* comment */
+.compose {
+  padding: 20px;
+}
+textarea {
+  width: 80%;
+  height: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.buttons {
+  margin-top: 10px;
+}
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cancel {
+  background: #fff;
+  border: 1px solid #ccc;
+}
+.post {
+  background: #335b2f;
+  color: #fff;
+}
+
+
+
+
+/* footer */
+footer {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f8e8c8;
+}
